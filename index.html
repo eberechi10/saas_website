@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilterPro - Advanced Search & Filter Made Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">FilterPro</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link">Features</a>
+                <a href="#" class="nav-link">Pricing</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="sign-in">Sign In</a>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Advanced Search & Filter <span class="text-purple">Made Simple</span>
+                </h1>
+                <p class="hero-description">
+                    Powerful search and filtering capabilities for your SaaS platform. Help users find exactly what they need with intelligent filters and lightning-fast search.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary">Start Free Trial</button>
+                    <button class="btn-secondary">View Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="demo-header">
+                <h2 class="section-title">See It In Action</h2>
+                <p class="section-description">Try our advanced search and filter system</p>
+            </div>
+            
+            <div class="demo-interface">
+                <!-- Filters Sidebar -->
+                <div class="filters-sidebar">
+                    <h3 class="filters-title">Filters</h3>
+                    
+                    <div class="filter-group">
+                        <h4 class="filter-label">Category</h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                                Analytics
+                                <span class="count">24</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                                Marketing
+                                <span class="count">18</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                Sales
+                                <span class="count">12</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-label">Price Range</h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="radio" name="price">
+                                <span class="radio"></span>
+                                Free
+                            </label>
+                            <label class="filter-option">
+                                <input type="radio" name="price">
+                                <span class="radio"></span>
+                                $1 - $50
+                            </label>
+                            <label class="filter-option">
+                                <input type="radio" name="price" checked>
+                                <span class="radio"></span>
+                                $50+
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4 class="filter-label">Rating</h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                                4+ Stars
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                3+ Stars
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="main-content">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for tools, features, or solutions..." class="search-input">
+                        <div class="search-results-info">
+                            <span>Showing 24 results</span>
+                            <select class="sort-dropdown">
+                                <option>Sort by...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="products-grid">
+                        <!-- Product Card 1 -->
+                        <div class="product-card">
+                            <div class="product-icon purple">📊</div>
+                            <div class="product-badge popular">Popular</div>
+                            <h3 class="product-title">Analytics Pro</h3>
+                            <p class="product-description">Advanced analytics dashboard with real-time insights and custom reporting</p>
+                            <div class="product-rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-value">4.9</span>
+                            </div>
+                            <div class="product-price">$29/mo</div>
+                        </div>
+
+                        <!-- Product Card 2 -->
+                        <div class="product-card">
+                            <div class="product-icon pink">📈</div>
+                            <div class="product-badge new">New</div>
+                            <h3 class="product-title">Marketing Hub</h3>
+                            <p class="product-description">Complete marketing automation platform with email campaigns and social media tools</p>
+                            <div class="product-rating">
+                                <div class="stars">★★★★☆</div>
+                                <span class="rating-value">4.2</span>
+                            </div>
+                            <div class="product-price">$49/mo</div>
+                        </div>
+
+                        <!-- Product Card 3 -->
+                        <div class="product-card">
+                            <div class="product-icon green">📋</div>
+                            <div class="product-badge free">Free</div>
+                            <h3 class="product-title">Sales Tracker</h3>
+                            <p class="product-description">Simple CRM solution for small teams to track leads and manage customer relationships</p>
+                            <div class="product-rating">
+                                <div class="stars">★★★★☆</div>
+                                <span class="rating-value">4.1</span>
+                            </div>
+                            <div class="product-price">Free</div>
+                        </div>
+
+                        <!-- Product Card 4 -->
+                        <div class="product-card">
+                            <div class="product-icon orange">👥</div>
+                            <div class="product-badge trending">Trending</div>
+                            <h3 class="product-title">Team Collaboration</h3>
+                            <p class="product-description">Project management and team communication platform with file sharing and task tracking</p>
+                            <div class="product-rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-value">4.8</span>
+                            </div>
+                            <div class="product-price">$19/mo</div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="page-btn">Previous</button>
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <button class="page-btn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-description">Everything you need for advanced search and filtering</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-description">Search through millions of records in milliseconds with our optimized indexing system.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔽</div>
+                    <h3 class="feature-title">Smart Filters</h3>
+                    <p class="feature-description">Intelligent filtering with auto-suggestions and dynamic filter options based on data.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Mobile Ready</h3>
+                    <p class="feature-description">Fully responsive design that works perfectly on all devices and screen sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">FilterPro</h3>
+                    <p class="footer-description">Advanced search and filtering solutions for modern SaaS platforms.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-heading">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 FilterPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
